@@ -1,0 +1,54 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  color: rgb(52, 52, 52);
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#nameTag input{
+  font-size: 32px;
+  color: black;
+  border: none;
+  border-bottom: solid 2px rgb(52, 52, 52);
+  outline: none;
+  margin: 2rem 1rem;
+}
+#supDiv{
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  border: solid 1px black;
+}
+#supDiv div{
+  padding: 5px;
+}
+#supDiv p{
+  margin-bottom: 10px;
+}
+
+#infDiv{
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  border: solid 1px black;
+  border-top: none;
+}
+#infDiv div{
+  width: 50%;
+  padding: 5px;
+}
+#infDiv p{
+  margin-bottom: 10px;
+}
+
+
+textarea{
+  border: none;
+  resize: none;
+  outline: none;
+}
